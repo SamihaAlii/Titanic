@@ -1,44 +1,28 @@
-Titanic EDA Analysis – Internship Task 2
+Titanic EDA Analysis
 
-This project explores the Titanic dataset using Python and performs Exploratory Data Analysis (EDA), data cleaning, and visualization.
+This project performs Exploratory Data Analysis (EDA) on the Titanic dataset to uncover survival patterns based on passenger demographics and travel class.
 
- Objectives
+The analysis includes data cleaning, statistical summaries, group-based insights, and visualizations using Python.
 
-Handle missing values
+📌 Objective
+
+Handle missing values in the dataset
 
 Perform group-based survival analysis
 
 Generate summary statistics
 
-Visualize survival patterns
+Visualize key survival patterns
 
- Data Cleaning
+📂 Dataset Source
 
-Filled missing Age values using median
+Dataset from Kaggle competition:
+Titanic: Machine Learning from Disaster
 
-Filled missing Embarked using mode
+Kaggle Link:
+https://www.kaggle.com/competitions/titanic
 
-Dropped Cabin column due to excessive missing values
-
-📈 Key Insights
-
-Females had significantly higher survival rates than males.
-
-First-class passengers had higher survival probability.
-
-Survival strongly correlates with gender and passenger class.
-
- Visualizations
-
-Survival by Gender (Bar Plot)
-
-Survival by Passenger Class (Bar Plot)
-
-Survival by Gender & Class
-
-Correlation Heatmap
-
- Tools Used
+🛠 Tools & Libraries Used
 
 Python
 
@@ -49,3 +33,30 @@ Matplotlib
 Seaborn
 
 Google Colab
+
+🧹 Data Cleaning Steps
+
+Filled missing Age values using median
+
+Filled missing Embarked values using mode
+
+Dropped Cabin column due to excessive missing data
+
+Verified data types and handled null values
+
+📊 Key Insights
+
+Female passengers had significantly higher survival rates than males.
+
+First-class passengers showed the highest probability of survival.
+
+Survival strongly correlated with gender and passenger class.
+
+Passenger class and fare demonstrated notable relationships in correlation analysis.
+
+📈 Visualizations
+Survival by Gender
+
+Survival by Passenger Class
+
+Correlation Heatmap
